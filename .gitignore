@@ -3,10 +3,9 @@
 ####################
 .settings/
 node_modules/
-bin/
 ####################
 ##### arquivos #####
 ####################
 .tern-project
 package-lock.json
-/bin/
+.project
