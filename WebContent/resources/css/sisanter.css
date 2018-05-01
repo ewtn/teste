@@ -1,0 +1,37 @@
+.alinhar-vertical {
+	top: 50%;
+	transform: translateY(-55%);
+}
+
+.banner {
+	position: relative;
+	height: 120px;
+	background-color: #B2C5CA;
+}
+
+.nome-sistema {
+	height: 97px;
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 20px;
+	padding-left: 22%;
+	color: white;
+}
+
+.conteudo {
+	background-color: #E7EDEF;
+	height: calc(100vh - 150px);
+	overflow: auto;
+}
+
+.rodape {
+	position: relative;
+	height: 30px;
+	background-color: #B2C5CA;
+}
+
+.link {
+	cursor: pointer;
+	font-weight: bold;
+	color: white;
+}
