@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 .settings/
 build/
 .classpath
 .project
 .tern-project
 bin/
+=======
+>>>>>>> parent of 607f1f8... Update .gitignore
