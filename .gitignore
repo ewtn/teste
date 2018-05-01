@@ -4,3 +4,5 @@ build/
 .project
 .tern-project
 bin/
+node_modules/
+dist/
