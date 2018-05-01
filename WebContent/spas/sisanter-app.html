@@ -1,12 +1,46 @@
+<!DOCTYPE html>
 <html>
 	<head>
+    	<meta charset="UTF-8">
 		<link type="text/css" rel="stylesheet" href="../resources/css/bootstrap-theme.css"></link>
 		<link type="text/css" rel="stylesheet" href="../resources/css/bootstrap.css"></link>
 		<link type="text/css" rel="stylesheet" href="../resources/css/sisanter.css"></link>
-		<title>Sisanter System</title>
+		
+		<script src="../resources/js/angular.js"></script>
+		<script src="../resources/js/angular-route.js"></script>
+		<script src="sisanter-app.js"></script>
+		<script src="inicio/inicio-controller.js"></script>
+		<script src="servicos/servicos-controller.js"></script>
+		
+		<title>SISANTER System</title>
 	</head>
 	
-	<body ng-app>
+	<body ng-app="sisanterAPP" class="container" style="overflow: hidden; background-color: gray" ng-controller="sisanterController as vmPrincipal">
+		<div class="row banner">
+			<div class="col-md-2 text-center alinhar-vertical">
+				<img src="../../resources/imgs/logo.png" width="100" height="100">
+			</div>
+			<div class="col-md-10">
+				<div class="col-md-12 nome-sistema text-uppercase">
+					Sisanter System
+				</div>
+				<div class="col-md-12" style="margin-left: 12%">
+					<a class="col-md-2 link" ng-click="vmPrincipal.chamarTela('sobre')">Sobre</a>
+					<a class="col-md-2 link" ng-click="vmPrincipal.chamarTela('servicos')">Serviços</a>
+					<a class="col-md-2 link">Institucional</a>
+					<a class="col-md-2 link">Contato</a>
+				</div>
+			</div>
+		</div>
 		
+		<div class="row conteudo">
+			<div ng-view></div>
+		</div>
+		
+		<div class="row rodape">
+			<div class="col-md-12 text-uppercase alinhar-vertical">
+				@Copyright Sisanter System é um sistema inovador feito em 2018.
+			</div>
+		</div>
 	</body>
 </html>
