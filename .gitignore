@@ -2,14 +2,9 @@
 #### diretorios ####
 ####################
 .settings/
-build/
-bin/
 node_modules/
-dist/
 ####################
 ##### arquivos #####
 ####################
-.classpath
-.project
 .tern-project
 package-lock.json

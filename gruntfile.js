@@ -1,6 +1,6 @@
 module.exports = function(grunt) 
 {
-	var sourcePath = 'WebContent/src';
+	var sourcePath = 'src';
 	
 	var config = {};
 	
@@ -9,11 +9,7 @@ module.exports = function(grunt)
 	config.watch = 
 	{
 		files : [
-			'src/**/**', 
-			sourcePath + '/**', 
-			sourcePath + '/resources/**/**', 
-			sourcePath + '/spas/**', 
-			sourcePath + '/spas/**/**'
+			sourcePath + '/**'
 		],
 		options: { livereload : true }
 	};
@@ -23,7 +19,7 @@ module.exports = function(grunt)
 		server: {
 			options: {
                 port: 9000,
-                base: 'WebContent/',
+                base: sourcePath,
                 hostname: 'localhost',
                 livereload: true,
                 open: true
