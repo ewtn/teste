@@ -1,0 +1,25 @@
+.alinhar-vertical {
+	top: 50%;
+	transform: translateY(-55%);
+}
+
+.tela-cheia-vertical {
+	height: 100%;
+}
+
+.banner {
+	position: relative;
+	height: 120px;
+	background-color: #B2C5CA
+}
+
+.conteudo {
+	height: calc(100% - 150px);
+	background-color: #E7EDEF;
+}
+
+.rodape {
+	position: relative;
+	height: 30px;
+	background-color: lightBlue;
+}
