@@ -1,6 +1,6 @@
 module.exports = function(grunt) 
 {
-	var sourcePath = 'src';
+	var sourcePath = 'WebContent';
 	
 	var config = {};
 	
