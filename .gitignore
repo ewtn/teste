@@ -1,0 +1,13 @@
+####################
+#### diretorios ####
+####################
+.settings/
+node_modules/
+bin/
+/bin/
+####################
+##### arquivos #####
+####################
+.tern-project
+package-lock.json
+.project
