@@ -1,10 +1,13 @@
+'use strict';
+
 angular
 
-.module('servicosControllers', [])
+.module('ServicosControllers', [])
 
-.controller('servicosController', function($location) 
+.controller('ServicosController', function($location)
 {
 	var vm = this;
 	
-	console.log('servicosController', vm);
+	console.log('ServicosController', vm);
+	
 });

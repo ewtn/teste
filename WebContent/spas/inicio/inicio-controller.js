@@ -1,10 +1,13 @@
+'use strict';
+
 angular
 
-.module('inicioControllers', [])
+.module('InicioControllers', [])
 
-.controller('inicioController', function() 
+.controller('InicioController', function()
 {
 	var vm = this;
 	
-	console.log('inicioController', vm);
+	console.log('InicioController', vm);
+	
 });
