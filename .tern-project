@@ -4,14 +4,8 @@
     "guess-types": {
       
     },
-    "outline": {
-      
-    },
     "complete_strings": {
       
-    },
-    "jshint": {
-      "configFile": ".jshintrc"
     },
     "angular1": {
       
@@ -21,6 +15,7 @@
     }
   },
   "libs": [
-    "browser"
+    "browser",
+    "jquery"
   ]
 }

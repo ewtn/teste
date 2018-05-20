@@ -4,7 +4,7 @@ angular
 
 .module('ServicosControllers', [])
 
-.controller('ServicosController', function($location)
+.controller('ServicosController', function()
 {
 	var vm = this;
 	
