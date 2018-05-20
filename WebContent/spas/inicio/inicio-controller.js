@@ -8,6 +8,5 @@ angular
 {
 	var vm = this;
 	
-	console.log('InicioController', vm);
-	
+	console.log('InicioController', vm);	
 });

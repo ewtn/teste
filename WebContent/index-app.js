@@ -16,15 +16,16 @@ angular
 	};
 })
 
-.config(['$routeProvider', function($routeProvider)
+.config(function($routeProvider)
 {
-	$routeProvider.when('/sobre', {
-		templateUrl : 'inicio/inicio-tpl.html'
-	})
-	.when('/servicos', {
-		templateUrl : 'servicos/servicos-tpl.html'
-	})
-	.otherwise({
-		redirectTo : '/servicos'
-	});
-}]);
+	$routeProvider
+		.when('/sobre', {
+			templateUrl : 'spas/inicio/inicio-tpl.html'
+		})
+		.when('/servicos', {
+			templateUrl : 'spas/servicos/servicos-tpl.html'
+		})
+		.otherwise({
+			redirectTo : '/sobre'
+		});
+});
